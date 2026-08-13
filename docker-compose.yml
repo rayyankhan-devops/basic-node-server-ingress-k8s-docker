@@ -1,0 +1,9 @@
+services:
+  basic-node-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: basic-node-server
+    ports:
+      - "3333:3333"
+    restart: always
