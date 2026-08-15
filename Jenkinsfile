@@ -62,7 +62,7 @@ pipeline {
     post {
         success {
             emailext(
-                to: 'your-email@gmail.com',
+                to: 'cutilicious1947@gmail.com',
 
                 subject: "SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
 
@@ -96,7 +96,7 @@ pipeline {
 
         failure {
             emailext(
-                to: 'your-email@gmail.com',
+                to: 'cutilicious1947@gmail.com',
 
                 subject: "❌ FAILURE: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
 
@@ -131,7 +131,7 @@ pipeline {
 
         fixed {
             emailext(
-                to: 'your-email@gmail.com',
+                to: 'cutilicious1947@gmail.com',
 
                 subject: "✅ FIXED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
 
