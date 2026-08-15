@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'r-agent-jenkins-server'
+        label 'test'
     }
 
     stages {
